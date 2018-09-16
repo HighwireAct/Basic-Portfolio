@@ -1,0 +1,11 @@
+body {
+}
+
+nav li {
+    float: right;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
