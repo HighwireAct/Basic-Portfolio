@@ -9,10 +9,15 @@ h2 {
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     font-weight: bold;
 }
+em {
+    font-style: italic;
+}
 header{
     margin: 0 auto;
     text-align: right;
 }
+
+/* Navigation links*/
 nav {
     color: #777777;
     /* float: right; */
@@ -23,6 +28,8 @@ nav li {
 nav a {
     text-decoration: none;
 }
+
+/* Porfolio Gallery */
 .gallery {
     text-align: left;
 }
@@ -43,6 +50,7 @@ nav a {
     text-align: center;
     width: 100%;
 }
+
 #author-name {
     background-color: #4aaaa5;
     color: white;
