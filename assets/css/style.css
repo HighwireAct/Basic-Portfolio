@@ -23,7 +23,6 @@ header{
 
 /* Navigation links*/
 nav {
-    color: #777777;
     margin: auto 0;
 }
 nav li {
@@ -36,7 +35,10 @@ nav li:last-child {
     padding-right: 0;
     border: none;
 }
-nav a {
+nav a,
+nav a:active,
+nav a:visited {
+    color: #777777;
     text-decoration: none;
 }
 
