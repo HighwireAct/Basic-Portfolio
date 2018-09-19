@@ -1,4 +1,6 @@
+/* Background image: "Qblks" by Alex Nolla (Source: Toptal Subtle Patterns) */
 body {
+    background-image: url(../images/qbkls.png);
     color: white;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -22,9 +24,17 @@ header{
 /* Navigation links*/
 nav {
     color: #777777;
+    margin: auto 0;
 }
 nav li {
     display: inline-flex;
+    padding: 0 10px;
+    border-right: 1px solid #dddddd;
+}
+nav li:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+    border: none;
 }
 nav a {
     text-decoration: none;
@@ -51,6 +61,8 @@ nav a {
     text-align: center;
     width: 100%;
 }
+
+/* Site logo */
 #author-name {
     background-color: #4aaaa5;
     color: white;
@@ -60,6 +72,7 @@ nav a {
     font-size: 1.5rem;
     padding: 30px;
 }
+
 #header-content{
     display: flex;
     justify-content: space-between;
