@@ -19,15 +19,37 @@ em {
 footer {
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
+    color: #ffffff;
     height: 75px;
+    position: relative;
+    text-align: center;
+}
+form {
+    padding: 20px;
 }
 header{
     background-color: #ffffff;
     border-bottom: 4px solid #cccccc;
 }
 p {
-    line-height: 1.8em;
+    line-height: 1.5em;
     margin: -5px 0 1em 0;
+}
+label,
+input,
+textarea {
+    display: block;
+    width: 100%
+}
+label {
+    margin-bottom: 0.5em;
+}
+input,
+textarea {
+    margin-bottom: 1em;
+}
+textarea {
+    height: 200px;
 }
 
 /* Navigation links*/
@@ -90,6 +112,7 @@ nav a:visited {
 #bio-image {
     float: left;
     margin-right: 20px;
+    max-height: 260px;
 }
 #header-content{
     display: flex;
@@ -98,7 +121,10 @@ nav a:visited {
     max-width: 960px;
 }
 #footer-content{
-    min-height: 100%;
+    bottom: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
 }
 #main-content {
     background-color: #ffffff;
